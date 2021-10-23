@@ -9,7 +9,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('category', type=str, help='''Name of the category. Prefixing "Category:" is optional.''')
     parser.add_argument('-p', '--path', type=str, default="./images", help='Output path')
-    parser.add_argument('-q', '--quiet', action='store_true', help='print nothing')
+    parser.add_argument('-q', '--quiet', action='store_true', help='Print nothing')
     args = parser.parse_args()
 
     cat_name = args.category
